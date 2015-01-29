@@ -1,0 +1,162 @@
+/*
+ Theme Name:   Ramsy
+ Theme URI:    http://www.andersnoren.se/teman/rams-wordpress-theme/
+ Description:  Ramsy is a child theme of Rams by Anders Norén
+ Author:       Claudio Schwarz
+ Author URI:   http://www.claudioschwarz.com
+ Template:     rams
+ Version:      1.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  rams
+*/
+
+/* MENU */
+.top-nav-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #6aa897;
+}
+
+.blog-title {
+    float: left;
+    text-align: left;
+    margin: 15px 0 0 40px;
+}
+
+.blog-title:after {
+    display: none;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu li {
+    float: left;
+    margin: 0;
+    position: relative;
+}
+
+.main-menu a {
+    padding: 20px 15px;
+}
+
+.main-menu .sub-menu {
+    position: absolute;
+    top: 100%;
+    background: #6aa897;
+    right: 0;
+    margin: 0;
+    display: none;
+}
+
+.main-menu .sub-menu a {
+    text-align: center;
+}
+
+.main-menu li:hover .sub-menu {
+    display: block;
+}
+
+.main-menu .sub-menu li {
+    float: none;
+}
+
+/* Content */
+.wrapper {
+    margin-top: 10%;
+}
+
+/* SOCIAL MEDIA */
+.widget-title {
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.6);
+}
+
+.social-links li {
+    float: left;
+    margin-left: 5px;
+    background: rgba(255,255,255,0.6);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.social-links li:hover {
+    background: #ffffff;
+}
+
+.social-links li:first-child {
+    margin-left: 0;
+}
+
+.social-links a {
+    text-align: center;
+    display: block;
+    margin-top: 11px;
+}
+
+.social-links li:hover a i {
+    color: #000000;
+}
+
+/* CLEARFIX */
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+@media (max-width: 930px) {
+    .top-nav-fixed {
+        padding: 20px 0;
+    }
+
+    .blog-title {
+        font-size: 1em;
+        margin: 0 0 0 5%;
+    }
+
+    .sidebar {
+        padding: 56px 0 30px 0;
+    }
+
+    .sidebar-inner {
+        border-top: 1px solid #ffffff;
+        padding-top: 30px;
+    }
+
+    .widget_cs_bootstrap_social_media_widget,
+    .widget_cs_bootstrap_social_media_widget h3{
+        text-align: center;
+    }
+
+    .social-links {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 700px) {
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
+
+@media (max-width: 400px) {
+
+}

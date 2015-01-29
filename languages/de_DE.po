@@ -1,0 +1,384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rams v1.07\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-14 13:00:38+0000\n"
+"Last-Translator: claudio <claudio@claudioschwarz.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:11
+#@ rams
+msgid "Error 404"
+msgstr "404 Fehler"
+
+#: 404.php:17
+#@ rams
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below."
+msgstr "Scheint so, als hätten Sie versucht eine Seite aufzurufen, welche nicht existiert. Sie können gerne die Suche nutzen:"
+
+#: archive.php:10
+#, php-format
+#@ rams
+msgid "Date: %s"
+msgstr "Datum: %s"
+
+#: archive.php:12
+#, php-format
+#@ rams
+msgid "Month: %s"
+msgstr "Monat: %s"
+
+#: archive.php:12
+#@ rams
+msgctxt "F = Month, Y = Year"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:14
+#, php-format
+#@ rams
+msgid "Year: %s"
+msgstr "Jahr: %s"
+
+#: archive.php:14
+#@ rams
+msgctxt "Y = Year"
+msgid "Y"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+#@ rams
+msgid "Category: %s"
+msgstr "Kategorie: %s"
+
+#: archive.php:18
+#, php-format
+#@ rams
+msgid "Tag: %s"
+msgstr "Schlagwort: %s"
+
+#: archive.php:21
+#, php-format
+#@ rams
+msgid "Author: %s"
+msgstr "Autorin: %s"
+
+#: archive.php:23
+#@ rams
+msgid "Archive"
+msgstr "Archiv"
+
+#: archive.php:31
+#: search.php:18
+#: search.php:63
+#, php-format
+#@ rams
+msgid "(page %s of %s)"
+msgstr "(Seite %s von %s)"
+
+#: archive.php:65
+#: index.php:41
+#: search.php:40
+#@ rams
+msgid "Older posts"
+msgstr "ältere Beiträge"
+
+#: archive.php:67
+#: index.php:43
+#: search.php:42
+#@ rams
+msgid "Newer posts"
+msgstr "neuere Beiträge"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: comments.php:12
+#: comments.php:93
+#@ rams
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Kommentar"
+msgstr[1] "Kommentare"
+
+#: comments.php:16
+#@ rams
+msgid "Add yours"
+msgstr "Fügen Sie Ihren Kommentar hinzu"
+
+#: comments.php:37
+#@ rams
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Pingback"
+msgstr[1] "Pingbacks"
+
+#: comments.php:57
+#@ rams
+msgid "Older Comments"
+msgstr "ältere Kommentare"
+
+#: comments.php:63
+#@ rams
+msgid "Newer Comments"
+msgstr "neuere Kommentare"
+
+#: comments.php:79
+#@ rams
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:101
+#@ rams
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:107
+#@ rams
+msgid "Email"
+msgstr "E-Mail Adresse"
+
+#: comments.php:113
+#@ rams
+msgid "Website"
+msgstr "Webseite"
+
+#: content-gallery.php:19
+#: content-video.php:39
+#: content.php:27
+#@ rams
+msgid "Sticky"
+msgstr "Sticky"
+
+#: functions.php:26
+#@ rams
+msgid "Primary Menu"
+msgstr "Hauptmenü"
+
+#: functions.php:107
+#, php-format
+#@ rams
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: functions.php:130
+#@ rams
+msgid "Read more"
+msgstr "weiterlesen"
+
+#: functions.php:251
+#@ rams
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:251
+#@ rams
+msgid "(Edit)"
+msgstr "(editieren)"
+
+#: functions.php:281
+#@ rams
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar muss noch überprüft werden."
+
+#: functions.php:294
+#@ rams
+msgid "Reply"
+msgstr "Antworten"
+
+#: functions.php:303
+#@ rams
+msgid "Edit"
+msgstr "editieren"
+
+#: functions.php:321
+#@ rams
+msgid "Video URL"
+msgstr "Video URL"
+
+#: functions.php:322
+#@ rams
+msgid "Quote content"
+msgstr "Zitat Inhalt"
+
+#: functions.php:323
+#@ rams
+msgid "Quote attribution"
+msgstr "Zitat Quelle"
+
+#: functions.php:447
+#@ rams
+msgid "Options for Rams"
+msgstr "Theme Optionen"
+
+#: functions.php:450
+#@ rams
+msgid "Allows you to customize theme settings for Rams."
+msgstr "Erlaubt das Theme anzupassen."
+
+#: functions.php:468
+#@ rams
+msgid "Accent Color"
+msgstr "Hauptfarbe"
+
+#: header.php:36
+#@ rams
+msgid "Click to view the navigation"
+msgstr "Navigation anzeigen"
+
+#: header.php:49
+#@ rams
+msgid "Menu"
+msgstr "Menü"
+
+#: header.php:50
+#@ rams
+msgid "Close"
+msgstr "Schliessen"
+
+#: header.php:78
+#@ rams
+msgid "Theme by"
+msgstr "Design von"
+
+#: image.php:43
+#: page.php:53
+#: single.php:207
+#: template-archive.php:113
+#@ rams
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr "Wir konnten nichts finden. Bitte versuchen Sie es erneut."
+
+#: image.php:49
+#: single.php:118
+#@ rams
+msgid "Show information about the post"
+msgstr "Informationen zum Beitrag anzeigen"
+
+#: image.php:59
+#: single.php:128
+#@ rams
+msgid "Post meta"
+msgstr "Beitragsinformationen"
+
+#: image.php:69
+#: single.php:138
+#@ rams
+msgid "Author"
+msgstr "Autorin"
+
+#: image.php:71
+#: single.php:140
+#@ rams
+msgid "Posted"
+msgstr "Veröffentlicht"
+
+#: image.php:75
+#@ rams
+msgid "Resolution"
+msgstr ""
+
+#: index.php:19
+#, php-format
+#@ rams
+msgid "Page %s of %s"
+msgstr "Seite %s von %s"
+
+#: page.php:33
+#: single.php:104
+#@ rams
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: search.php:11
+#: search.php:56
+#@ rams
+msgid "Search results:"
+msgstr "Suchresultate:"
+
+#: search.php:75
+#@ rams
+msgid "No results. Try again, would you kindly?"
+msgstr "Keine Resultate. Möchten Sie es noch einmal versuchen?"
+
+#: searchform.php:2
+#@ rams
+msgid "Type and press enter"
+msgstr "Eingeben und Enter drücken"
+
+#: single.php:144
+#: template-archive.php:47
+#@ rams
+msgid "Categories"
+msgstr "Kategorien"
+
+#: single.php:150
+#: template-archive.php:51
+#@ rams
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: single.php:168
+#@ rams
+msgid "Next"
+msgstr "nächster Beitrag"
+
+#: single.php:169
+#@ rams
+msgid "Next post"
+msgstr "nächster Beitrag"
+
+#: single.php:179
+#@ rams
+msgid "Previous"
+msgstr "vorheriger Beitrag"
+
+#: single.php:180
+#@ rams
+msgid "Previous post"
+msgstr "vorheriger Beitrag"
+
+#: template-archive.php:31
+#@ rams
+msgid "Posts"
+msgstr "Beiträge"
+
+#: template-archive.php:58
+#, php-format
+#@ rams
+msgid "View all posts in %s"
+msgstr "Alle Beiträge in %s anzeigen"
+
+#: template-archive.php:65
+#@ rams
+msgid "Contributors"
+msgstr "Helfer"
+
+#: template-archive.php:71
+#@ rams
+msgid "Archives by Year"
+msgstr "Jahresarchiv"
+
+#: template-archive.php:77
+#@ rams
+msgid "Archives by Month"
+msgstr "Monatsarchiv"
+
+#: template-archive.php:83
+#@ rams
+msgid "Archives by Day"
+msgstr "Tagesarchiv"
+
