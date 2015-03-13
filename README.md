@@ -1,5 +1,5 @@
 # ramsy
-Ramsy is a WordPress child theme of "Rams"
+Ramsy is a WordPress child theme of "[Rams](https://wordpress.org/themes/rams/)"
 
 ## Screenshot
 ![Image of Ramsy](https://github.com/purzlbaum/ramsy/blob/master/screenshot.png)
