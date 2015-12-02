@@ -37,7 +37,7 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
 
             if($facebook != '' && $target != ''){
                 echo '<li><a href="'.$facebook.'"title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>';
-            } elseif($twitter != '') {
+            } elseif($facebook != '') {
                 echo '<li><a href="'.$facebook.'" title="Facebook"><i class="fa fa-facebook"></i></a></li>';
             }
 
