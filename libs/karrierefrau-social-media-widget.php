@@ -32,37 +32,43 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
         <?php if($title != '')
             echo '<h3 class="widget-title">'.$title.'</h3>'; ?>
 
-        <ul class="social-links clearfix">
+        <ul class="social-accounts clearfix">
             <?php
 
             if($facebook != '' && $target != ''){
-                echo '<li><a href="'.$facebook.'"title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>';
+                echo '<li><a href="'.$facebook.'"title="Facebook Account" target="_blank"><i class="fa fa-facebook"></i></a></li>';
             } elseif($facebook != '') {
-                echo '<li><a href="'.$facebook.'" title="Facebook"><i class="fa fa-facebook"></i></a></li>';
+                echo '<li><a href="'.$facebook.'" title="Facebook Account"><i class="fa fa-facebook"></i></a></li>';
             }
 
             if($twitter != '' && $target != ''){
-                echo '<li><a href="'.$twitter.'"title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>';
+                echo '<li><a href="'.$twitter.'"title="Twitter Account" target="_blank"><i class="fa fa-twitter"></i></a></li>';
             } elseif($twitter != '') {
-                echo '<li><a href="'.$twitter.'" title="Twitter"><i class="fa fa-twitter"></i></a></li>';
+                echo '<li><a href="'.$twitter.'" title="Twitter Account"><i class="fa fa-twitter"></i></a></li>';
             }
 
             if($googleplus != '' && $target != ''){
-                echo '<li><a href="'.$googleplus.'" title="Google+" target="_blank"><i class="fa fa-googleplus"></i></a></li>';
+                echo '<li><a href="'.$googleplus.'" title="Google+ Account" target="_blank"><i class="fa fa-googleplus"></i></a></li>';
             } elseif($googleplus != '') {
-                echo '<li><a href="'.$googleplus.'" title="Google+"><i class="fa fa-google-plus"></i></a></li>';
+                echo '<li><a href="'.$googleplus.'" title="Google+ Account"><i class="fa fa-google-plus"></i></a></li>';
             }
 
             if($linkedin != '' && $target != ''){
-                echo '<li><a href="'.$linkedin.'" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a></li>';
+                echo '<li><a href="'.$linkedin.'" title="LinkedIn Profil" target="_blank"><i class="fa fa-linkedin"></i></a></li>';
             } elseif($linkedin != '') {
-                echo '<li><a href="'.$linkedin.'" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>';
+                echo '<li><a href="'.$linkedin.'" title="LinkedIn Profil"><i class="fa fa-linkedin"></i></a></li>';
             }
 
             if($xing != '' && $target != ''){
-                echo '<li><a href="'.$xing.'" title="xing" target="_blank"><i class="fa fa-xing"></i></a></li>';
+                echo '<li><a href="'.$xing.'" title="xing Profil" target="_blank"><i class="fa fa-xing"></i></a></li>';
             } elseif($xing != '') {
-                echo '<li><a href="'.$xing.'" title="xing"><i class="fa fa-xing"></i></a></li>';
+                echo '<li><a href="'.$xing.'" title="xing Profil"><i class="fa fa-xing"></i></a></li>';
+            }
+
+            if($instagram != '' && $target != ''){
+                echo '<li><a href="'.$instagram.'" title="RSS Feed" target="_blank"><i class="fa fa-instagram"></i></a></li>';
+            } elseif($instagram != '') {
+                echo '<li><a href="'.$instagram.'" title="RSS Feed"><i class="fa fa-instagram"></i></a></li>';
             }
 
             if($rss != '' && $target != ''){
@@ -89,6 +95,7 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
         $googleplus = esc_attr($instance['googleplus']);
         $linkedin = esc_attr($instance['linkedin']);
         $xing = esc_attr($instance['xing']);
+        $instagram = esc_attr($instance['instagram']);
         $rss = esc_attr($instance['rss']);
         $target = esc_attr($instance['target']);
 
@@ -122,6 +129,11 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
         <p>
             <label for="<?php echo $this->get_field_id('xing'); ?>"><?php _e('xing URL:','cs-bootstrap'); ?></label>
             <input type="text" name="<?php echo $this->get_field_name('xing'); ?>" value="<?php echo $xing; ?>" class="widefat" id="<?php echo $this->get_field_id('xing'); ?>" />
+        </p>
+
+        <p>
+            <label for="<?php echo $this->get_field_id('instagram'); ?>"><?php _e('Instagram URL:','cs-bootstrap'); ?></label>
+            <input type="text" name="<?php echo $this->get_field_name('instagram'); ?>" value="<?php echo $instagram; ?>" class="widefat" id="<?php echo $this->get_field_id('instagram'); ?>" />
         </p>
 
         <p>
