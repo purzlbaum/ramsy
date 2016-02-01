@@ -25,7 +25,7 @@
 .blog-title {
     float: left;
     text-align: left;
-    margin: 15px 0 0 40px;
+    margin: 15px 0 0 15px;
 }
 
 .blog-title:after {
@@ -95,6 +95,11 @@ input[type=search] {
 :-ms-input-placeholder { color:#ffffff; } /* ie */
 input:-moz-placeholder { color:#ffffff; }
 
+.sidebar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* SOCIAL MEDIA */
 .widget .rounded,
 .widget-title {
@@ -104,7 +109,8 @@ input:-moz-placeholder { color:#ffffff; }
 
 .social-accounts li {
     float: left;
-    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
     background: rgba(255,255,255,0.6);
     width: 40px;
     height: 40px;
@@ -113,10 +119,6 @@ input:-moz-placeholder { color:#ffffff; }
 
 .social-accounts li:hover {
     background: #ffffff;
-}
-
-.social-accounts li:first-child {
-    margin-left: 0;
 }
 
 .social-accounts a {

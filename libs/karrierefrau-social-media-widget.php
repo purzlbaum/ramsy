@@ -66,9 +66,15 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
             }
 
             if($instagram != '' && $target != ''){
-                echo '<li><a href="'.$instagram.'" title="RSS Feed" target="_blank"><i class="fa fa-instagram"></i></a></li>';
+                echo '<li><a href="'.$instagram.'" title="Instagram Profil" target="_blank"><i class="fa fa-instagram"></i></a></li>';
             } elseif($instagram != '') {
-                echo '<li><a href="'.$instagram.'" title="RSS Feed"><i class="fa fa-instagram"></i></a></li>';
+                echo '<li><a href="'.$instagram.'" title="Instagram Profil"><i class="fa fa-instagram"></i></a></li>';
+            }
+
+            if($pinterest != '' && $target != ''){
+                echo '<li><a href="'.$pinterest.'" title="Pinterest Profil" target="_blank"><i class="fa fa-pinterest"></i></a></li>';
+            } elseif($pinterest != '') {
+                echo '<li><a href="'.$pinterest.'" title="Pinterest Profil"><i class="fa fa-pinterest"></i></a></li>';
             }
 
             if($rss != '' && $target != ''){
@@ -96,6 +102,7 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
         $linkedin = esc_attr($instance['linkedin']);
         $xing = esc_attr($instance['xing']);
         $instagram = esc_attr($instance['instagram']);
+        $pinterest = esc_attr($instance['pinterest']);
         $rss = esc_attr($instance['rss']);
         $target = esc_attr($instance['target']);
 
@@ -134,6 +141,11 @@ class cs_bootstrap_social_media_widget extends WP_Widget {
         <p>
             <label for="<?php echo $this->get_field_id('instagram'); ?>"><?php _e('Instagram URL:','cs-bootstrap'); ?></label>
             <input type="text" name="<?php echo $this->get_field_name('instagram'); ?>" value="<?php echo $instagram; ?>" class="widefat" id="<?php echo $this->get_field_id('instagram'); ?>" />
+        </p>
+
+        <p>
+            <label for="<?php echo $this->get_field_id('pinterest'); ?>"><?php _e('Pinterest URL:','cs-bootstrap'); ?></label>
+            <input type="text" name="<?php echo $this->get_field_name('pinterest'); ?>" value="<?php echo $pintererst; ?>" class="widefat" id="<?php echo $this->get_field_id('pinterest'); ?>" />
         </p>
 
         <p>
